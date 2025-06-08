@@ -29870,12 +29870,12 @@ section>*,
   left: 0;
   bottom: 0;
   right: 0;
-  position: absolute !important;
-  display: block;
-  overflow: hidden;
   background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.65);
   pointer-events: none;
+  z-index: 0; /* Make sure it sits above video but below content */
 }
+
 
 .o_full_screen_height,
 .cover_full,
@@ -37974,6 +37974,9 @@ body:not(.editor_enable) .s_website_form[data-vcss="001"] .s_website_form_dateti
   height: 100%;
   width: 100%;
   overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   z-index: 0;
 }
 
@@ -38172,5 +38175,52 @@ body:not(.editor_enable) .s_website_form[data-vcss="001"] .s_website_form_dateti
     margin: 0 auto;
     max-height: 200px;
   }
+
+section {
+  margin: 0;
+}
+
+.s_title {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+
+.s_title + .s_title {
+  margin-top: -2px; /* hides gap */
+}
+
+.s_title,
+.s_cover {
+  margin: 0;
+  border: none;
+}
+
+.s_title + .s_cover {
+  margin-top: -2px; /* hides gap */
+}
+
+.s_cover {
+  position: relative;
+  overflow: hidden;
+}
+.s_title {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.s_cover {
+  margin-top: 0;
+  padding-top: 0;
+  position: relative; /* ensure children absolutely positioned inside */
+}
+
+/* If video-background or overlay causes extra spacing */
+.video-background, .o_we_bg_filter {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+}
 
 
