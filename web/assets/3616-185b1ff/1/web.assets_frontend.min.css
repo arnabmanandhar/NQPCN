@@ -1083,7 +1083,7 @@
   --o-cc3-btn-secondary-border: ;
   --o-cc3-btn-secondary: #a9bcbc;
   --o-cc3-btn-primary-border: ;
-  --o-cc3-btn-primary: #ffffff;
+  --o-cc3-btn-primary: #261515;
   --o-cc3-link: #ffffff;
   --o-cc3-h6: ;
   --o-cc3-h5: ;
@@ -15754,7 +15754,7 @@ a.text-dark:focus {
 .btn-fill-primary,
 .btn-primary {
   color: #FFFFFF;
-  background-color: #98b1ed;
+  background-color: #135021;
   border-color: #98b1ed;
 }
 
@@ -38141,3 +38141,36 @@ body:not(.editor_enable) .s_website_form[data-vcss="001"] .s_website_form_dateti
 .text-blue-500 {
   color: #357ebd !important;
 }
+
+.btn-alternative {
+  background-color: #357ebd !important;
+  color: white !important;
+  border: none !important;
+  padding: 5px 10px !important;
+  border-radius: 5px !important;
+  hover {
+    background-color: #285e8e !important;
+    color: white !important;
+  }
+  focus {
+    outline: none !important;
+    box-shadow: 0 0 0 2px rgba(53, 126, 189, 0.5) !important;
+  }
+  active {
+    background-color: #204d74 !important;
+    color: white !important;
+  }
+  transition: background-color 0.3s ease, color 0.3s ease !important;
+  cursor: pointer !important;
+  text-decoration: none !important;
+  display: inline-block !important;
+  font-weight: 500 !important;
+}
+
+.custom-container {
+    max-width: 90%;
+    margin: 0 auto;
+    max-height: 200px;
+  }
+
+
