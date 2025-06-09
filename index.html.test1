@@ -132,9 +132,9 @@
                 </a>
               </li>
 
-              <li class="nav-item ms-lg-auto o_no_autohide_item">
+                            <!-- <li class="nav-item ms-lg-auto o_no_autohide_item">
                 <a href="web/login.html" class="nav-link fw-bold">Sign in</a>
-              </li>
+              </li> -->
 
 
 
@@ -143,7 +143,7 @@
                 class="o_offcanvas_logo_container order-last navbar-toggler py-4 order-1 mt-auto text-center border-0">
                 <a href="index.html" class="o_offcanvas_logo logo">
                   <span role="img" aria-label="Logo of nqpcn" title="nqpcn"><img src="web/image/website/1/logo/logo.jpg"
-                      class="img img-fluid" style="max-width: 200px" alt="nqpcn" loading="lazy" /></span>
+                      class="img img-fluid" style="max-width: 50px" alt="nqpcn" loading="lazy" /></span>
                 </a>
               </li>
             </ul>

@@ -75,34 +75,38 @@
   <div id="wrapwrap" class="homepage   ">
     <header id="top" data-anchor="true" data-name="Header" class="  o_header_standard">
 
+    
       <nav data-name="Navbar" class="navbar navbar-expand-lg navbar-light o_colored_level o_cc shadow-sm">
 
         <div id="top_menu_container" class="container justify-content-start justify-content-lg-between">
 
           <a href="index.html" class="navbar-brand logo me-4">
-
             <span role="img" aria-label="Logo of nqpcn" title="nqpcn"><img src="web/image/website/1/logo/logo.jpg"
                 class="img img-fluid" width="95" height="40" alt="nqpcn" loading="lazy" /></span>
           </a>
 
 
-    <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#top_menu_collapse" aria-controls="top_menu_collapse" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+          <!-- Hamburger button -->
+          <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
+            data-bs-target="#top_menu_collapse" aria-controls="top_menu_collapse" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon o_not_editable"></span>
+          </button>
 
           <div id="top_menu_collapse" class="collapse navbar-collapse order-last order-lg-0">
             <div class="o_offcanvas_menu_backdrop" data-bs-toggle="collapse" data-bs-target="#top_menu_collapse"
               aria-label="Toggle navigation"></div>
             <ul id="top_menu" role="menu" class="nav navbar-nav o_menu_loading flex-grow-1">
-              <li class="o_offcanvas_menu_toggler order-first navbar-toggler text-end border-0 o_not_editable">
-                <a href="#top_menu_collapse" class="nav-link px-3" data-bs-toggle="collapse">
+              <li class="nav-item d-lg-none text-end mb-3">
+                
+                <button class="btn nav-link px-3" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#top_menu_collapse" aria-label="Close menu">
                   <span class="fa-2x">×</span>
-                </a>
+                </button>
               </li>
 
-
               <li role="presentation" class="nav-item">
-                <a role="menuitem" href="index.html" class="nav-link active">
+                <a role="menuitem" href="index.html" class="nav-link">
                   <span>Home</span>
                 </a>
               </li>
@@ -131,10 +135,15 @@
                   <span>Conference</span>
                 </a>
               </li>
+              <!-- <li role="presentation" class="nav-item">
+                <a role="menuitem" href="slides.html" class="nav-link active ">
+                  <span>Programs</span>
+                </a>
+              </li> -->
 
-              <li class="nav-item ms-lg-auto o_no_autohide_item">
+              <!-- <li class="nav-item ms-lg-auto o_no_autohide_item">
                 <a href="web/login.html" class="nav-link fw-bold">Sign in</a>
-              </li>
+              </li> -->
 
 
 
@@ -143,7 +152,7 @@
                 class="o_offcanvas_logo_container order-last navbar-toggler py-4 order-1 mt-auto text-center border-0">
                 <a href="index.html" class="o_offcanvas_logo logo">
                   <span role="img" aria-label="Logo of nqpcn" title="nqpcn"><img src="web/image/website/1/logo/logo.jpg"
-                      class="img img-fluid" style="max-width: 200px" alt="nqpcn" loading="lazy" /></span>
+                      class="img img-fluid" style="max-width: 100px" alt="nqpcn" loading="lazy" /></span>
                 </a>
               </li>
             </ul>
@@ -151,13 +160,13 @@
 
           </div>
 
-<div class="oe_structure oe_structure_solo ms-lg-4 d-flex align-items-center ms-auto">
-  <section class="s_text_block" data-snippet="s_text_block" data-name="Text">
-    <div class="container">
-      <a href="contactus.html" class="btn btn_cta_custom">Contact Us</a>
-    </div>
-  </section>
-</div>
+          <div class="oe_structure oe_structure_solo ms-lg-4 d-flex align-items-center ms-auto">
+            <section class="s_text_block" data-snippet="s_text_block" data-name="Text">
+              <div class="container">
+                <a href="contactus.html" class="btn btn_cta_custom">Contact Us</a>
+              </div>
+            </section>
+          </div>
 
       </nav>
     </header>
